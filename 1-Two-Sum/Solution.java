@@ -40,13 +40,13 @@ class Solution {
     public static void main(String[] args) {
         Solution Sol = new Solution();
 
-        int[] numbers = new int[] { 2, 7, 5, 11 };
+        int[] numbers = new int[] { 2, 7, 5, 11, 19, 32, 221, 31, 212, 56, 2134, 12, 24235, 25, 36, 356, 22 };
         int[] solutionArray = new int[2];
 
-        solutionArray = Sol.twoSum(numbers, 7);
+        solutionArray = Sol.twoSum(numbers, 56);
         System.out.println(solutionArray[0] + " " + solutionArray[1]);
 
-        solutionArray = Sol.twoSumHashTable(numbers, 7);
+        solutionArray = Sol.twoSumHashTable(numbers, 57);
         System.out.println(solutionArray[0] + " " + solutionArray[1]);
     }
 }
